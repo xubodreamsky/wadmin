@@ -3,11 +3,13 @@
 namespace App\Http\Controllers\Member;
 
 use App\Http\Controllers\Controller;
-
+use App\Member;
 use Illuminate\Http\Request;
 
-use App\Member;
-
+/**
+ * Class MemberController
+ * @package App\Http\Controllers\Member
+ */
 class MemberController extends Controller {
 	/**
 	 * Display a listing of the resource.
